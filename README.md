@@ -100,7 +100,7 @@
     <h2>Answers</h2>
     <h3 id="question1">Question 1: </h3>
     <div>
-        <img src="./readme-files/question-1.png" width="600" height="400">
+        <img src="./readme-files/question-1.png" width="100%">
     </div>
     <p>
         a) I did it with PHP script. I wrote a method named <b>getJobReport</b> which imports hits.xlsx file in base path to MySQL table with PDO.
@@ -170,8 +170,8 @@ FOREIGN KEY (job_id) REFERENCES jobs(job_id)
 To counteract these risks, it is important to use parameterized queries and prepared statements when interacting with the database. Parameterized queries allow the application to pass parameters to the database separately from the SQL code, making it more difficult for malicious users to manipulate the query. Prepared statements, on the other hand, can help prevent SQL injection by allowing the database to separate the SQL code from the user-input data. Additionally, it is important to validate and sanitize user-input data before passing it to the database to ensure that it does not contain any malicious code.</p>
 <h3 id="question3">Question 3: </h3>
 <p>Project Route: <code>http://localhost:8000?route=change-text</code></p>
-    <img src="./readme-files/question-3.png" width="500" height="300">
-    <img src="./readme-files/question-3-2.png" width="500" height="300">
+    <img src="./readme-files/question-3.png" style="width: 50%">
+    <img src="./readme-files/question-3-2.png" style="width: 50%">
     <p>In the first image there are two options: Directly and Reverse. Directly means convert original text to scrambled text. Reverse means convert scrambled text to its original version.</p>
     <p>You can click <b>Convert To Original</b> button after generate a scrambled string.</p>
     <p>Or you can select <b>Reverse</b> option and click <b>Generate</b> button to unscramble the scrambled text previously</p>
